@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Spectral');
+
+
+#calendar {
+    position: relative;
+}
+.calendar {
+    width: 420px;
+    position: relative;
+    margin: 30px auto 0;
+    font-family: 'Spectral', serif;
+}
+.table{
+	background: -webkit-linear-gradient(#7BC2D8, #E88089); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#7BC2D8, #E88089); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#7BC2D8, #E88089); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#7BC2D8, #E88089); /* Standard syntax */
+	text-align: center;
+	font-size: 18px;
+}
+th {
+    text-align: center;
+}
+.dayNow {
+    border: 1px solid rgba(164, 215, 230, 0.43) !important;
+    box-shadow: 0px 0px 45px #3F51B5 inset;
+    border-radius: 30px;
+}
+.month {
+    text-align: center;
+    font-size: 30px;
+    padding: 12px 0;
+    background-color: #7CC2D7;
+    border-bottom: 1px solid rgba(230, 129, 138, 0.24);
+}
+.month_btn{
+	position: absolute;
+    top: 90px;
+    padding: 12px;
+    cursor: pointer;
+    background-color: rgba(230, 230, 230, 0);
+}
+.prev_month {
+	left: 0px;
+}
+.next_month {
+    right: 0px;
+}
+.year{
+    padding: 20px;
+    position: relative;
+    display: block;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #E6818A;
+}
+td, th {
+    width: 60px !important;
+    height: 60px;
+    padding: 18px 0 !important;
+    display: inline-block;
+    float: left;
+    border: 1px solid rgba(105, 105, 105, 0) !important;
+    font-weight: 400;
+}
+th:nth-child(6n),td:nth-child(6n){
+	background-color: rgba(255, 0, 0, 0.07);
+}
